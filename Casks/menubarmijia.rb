@@ -10,8 +10,8 @@
 # 「系统设置 → 隐私与安全性」里手动放行。本 cask 刻意不在安装后执行 xattr -cr / spctl 之类命令，
 # 也不使用 --no-quarantine：不替用户关掉隔离属性。公证完成后再考虑提交官方 homebrew/cask。
 cask "menubarmijia" do
-  version "1.1.2"
-  sha256 "5ba32b8f577a1ca0b119a1c29ee930989c3da21df2a36b4b0c987ab1b036dd43"
+  version "1.1.3"
+  sha256 "60ef54287e28b0d7971ff323361ac6b3cd09d77494fc19dbef0870d60960af27"
 
   url "https://github.com/jryang1997/MenuBarMijia/releases/download/v#{version}/MenuBarMijia-#{version}.dmg",
       verified: "github.com/jryang1997/MenuBarMijia/"
